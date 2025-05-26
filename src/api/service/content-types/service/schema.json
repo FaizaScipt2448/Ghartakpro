@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "services",
+  "info": {
+    "singularName": "service",
+    "pluralName": "services",
+    "displayName": "service"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Washing": {
+      "type": "string",
+      "required": true,
+      "maxLength": 720,
+      "minLength": 3
+    }
+  }
+}

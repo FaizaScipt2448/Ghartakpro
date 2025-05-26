@@ -1,0 +1,20 @@
+{
+    "kind": "collectionType",
+    "collectionName": "customers",
+    "info": {
+        "singularName": "customer",
+        "pluralName": "customers",
+        "displayName": "customer"
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "attributes": {
+        "faiza": {
+            "type": "string",
+            "required": true,
+            "maxLength": 720,
+            "minLength": 3
+        }
+    }
+}
